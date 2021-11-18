@@ -1,0 +1,57 @@
+@media (max-width:1000px) {
+    .upper .container img {
+        width: 20rem;
+    }
+}
+
+@media (max-width:800px) {
+
+
+
+    .upper .container.flex-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lower .title {
+        font-size: 2rem;
+    }
+
+    .price-cards {
+        display: flex;
+        flex-direction: column-reverse;
+        /* grid-template-columns: 1fr;
+        grid-auto-flow: dense; */
+    }
+
+    .sale-card .button-main {
+        width: auto;
+        font-size: 1.25rem;
+    }
+
+    .upper .container img {
+        display: none;
+    }
+
+}
+
+
+@media (max-width:350px) {
+   
+    .sale-card {
+        font-size: 1rem;
+    }
+
+    .price-card .title{
+        font-size: 1.5rem;
+    }
+
+    .price-card :is(.description, .description> *){
+        font-size: 1rem;
+    }
+
+    .price-card .price {
+        font-size: 1rem;
+    }
+
+}

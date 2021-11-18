@@ -1,0 +1,102 @@
+
+
+
+
+/* Body */
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+main .upper .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    /* width: 100%; */
+    padding-top: 3rem;
+}
+
+main .upper .container section {
+    padding: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    max-width: 50vw;
+    gap: 3.5em;
+}
+
+main  .upper .container section h1 {
+    font-size: 2.5rem;
+}
+
+main  .upper .container section p {
+    font-size: 2rem;
+}
+
+main  .upper .container section a {
+    
+    width: 5.5em;
+    
+}
+
+
+
+/* Aside */
+
+main .upper .container aside {
+    background-color: var(--faint-pink);
+    width: 30vw;
+    height: 30em;
+    padding: 1em;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+main .upper .container aside img {
+    width: 100%;
+}
+
+main .upper .container aside p {
+    font-size: 1.5rem;
+}
+
+/* Lower */
+
+.lower .title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.lower-content{
+    gap: 10rem;
+    align-items: flex-start;
+
+}
+
+.cards {
+    gap: 1em;
+    justify-content: space-between;
+    /* height: 300px; */
+}
+
+.card {
+    background-color: var(--faint-pink);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    height: 50%;
+    font-size: 1.5em;
+}
+
+.lower > * > * > .card p {
+    font-size: 2rem;
+}
+
+
+
+
+
+

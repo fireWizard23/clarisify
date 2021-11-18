@@ -1,0 +1,78 @@
+.upper .container {
+    align-items: space-between;
+    /* background-color: blue; */
+    gap: 1rem;
+}
+
+.sale-card {
+    width: 60%;
+    /* background-color: red; */
+    background-color: var(--faint-pink);
+    padding: 1em;
+    justify-content: space-between;
+    gap: 1em;
+    font-size: 1.5rem;
+}
+
+.sale-card .button-main {
+    width: 10rem;
+}
+
+.upper .container img {
+    width: 30rem;
+}
+
+/* Lower */
+
+.lower .title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: normal;
+}
+
+.price-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+}
+
+.price-card {
+    background-color: var(--faint-pink);
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+.price-card:nth-child(2) {
+    background-color: #E55D5D;
+}
+
+.price-card:nth-child(3) {
+    background-color: #CF1D1D;
+}
+
+.price-card .title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.price-card :is(.description, .description> *){
+    font-size: 1.5rem;
+}
+
+
+.price-card .price {
+    font-size: 1.5em;
+    background-color: var(--button-color);
+    max-width: 8em;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    cursor: pointer;
+    
+}
+
+.price-card:nth-child(3) .price {
+    background-color: white;
+    color: black;
+}
+
+
